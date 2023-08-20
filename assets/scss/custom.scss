@@ -1,0 +1,25 @@
+.toast {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s, visibility 0.3s;
+}
+  
+  .hidden {
+    display: none;
+  }
+  
+  .toast-success {
+    background-color: #4CAF50; /* Green background for success */
+}
+
+.toast-error {
+    background-color: #f44336; /* Red background for errors */
+}
